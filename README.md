@@ -1,3 +1,28 @@
+# Lab 5: Static Code Analysis — Hospital Patient System (Completed)
+
+## ✅ Student Submission Summary
+
+I have completed all tasks for this lab. 
+- **Pylint Score:** Improved from `5.37/10` to `10.00/10`
+- **Bandit:** Reduced from `5 issues` (2 High, 1 Medium, 2 Low) to `0 issues`
+- **Flake8:** Fixed all `11 PEP 8 style violations`
+
+### Key Fixes Applied:
+- **Security (Bandit):** Removed `eval()`, replaced MD5 with SHA-256, replaced `random` with `secrets`, removed `os.system()`, and moved the hardcoded access key to an environment variable.
+- **Code Quality (Pylint):** Fixed mutable default arguments, removed bare `except`, added docstrings, renamed functions to snake_case, and removed unused variables.
+- **Style (Flake8):** Fixed line lengths, removed unused imports, and added a final newline.
+
+### Deliverables included in this repository:
+- `hospital_patient_system.py` — The refactored and secured Python script.
+- `issues.md` — Log of all issues found and how they were fixed.
+- `reflection.md` — Reflection on the static analysis process.
+- `*_report_before.txt` and `*_report_after.txt` — The raw reports from Pylint, Bandit, and Flake8 before and after the fixes.
+
+---
+---
+
+# Original Assignment Instructions
+
 # Lab 5: Static Code Analysis — Hospital Patient System
 
 **Your file:** `hospital_patient_system.py`
